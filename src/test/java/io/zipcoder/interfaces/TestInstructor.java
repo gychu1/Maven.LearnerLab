@@ -30,7 +30,7 @@ public class TestInstructor {
     }
 
     @Test
-    public void lecture() {
+    public void testLecture() {
         Instructor instructor = new Instructor(1, "XY");
         Student learner = new Student(8, "GY");
         Student learner2 = new Student(18, "GC");
